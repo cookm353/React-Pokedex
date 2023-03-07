@@ -1,26 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
+import Pokedex from './Pokedex';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Pokedex />
     </div>
   );
 }
 
 export default App;
+
+/*
+Corviknight - 823
+Nidoking = 34
+Jolteon - 135
+Gengar - 94
+Dragapult - 887
+Lucario - 448
+*/

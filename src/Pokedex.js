@@ -6,7 +6,7 @@ import './Pokedex.css'
 const Pokedex = () => {
     return (
         <>
-            <h3 className="PokedexHeader">Pokedex</h3>
+            <h2 className="PokedexHeader">Pokedex</h2>
             <div className="PokedexCards">
                 {Pokelist.map(p => (
                     <Pokecard name={p.name} id={p.id} 

@@ -7,10 +7,10 @@ const Pokecard = ({ name, id, type, exp }) => {
     
     return (
         <div className="PokecardCard">
-            <h4 className="PokecardName PokecardItem">{name}</h4>
+            <h3 className="PokecardName PokecardItem">{name}</h3>
             <img className="PokecardItem" src={imgUrl}/>
-            <p className="PokecardItem">Type: {type}</p>
-            <p className="PokecardItem">EXP: {exp}</p>
+            <p className="PokecardItem PokecardType">Type: {type}</p>
+            <p className="PokecardItem PokecardExp">EXP: {exp}</p>
         </div>
     )
 }

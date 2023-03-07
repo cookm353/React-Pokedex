@@ -16,3 +16,11 @@
 .PokecardItem {
     align-self: center;
 }
+
+.PokecardType {
+    margin-bottom: 5px;
+}
+
+.PokecardExp {
+    margin-top: 5px;
+}
